@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('static/iconfont/iconfont.eot');
+  src: url('static/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('static/iconfont/iconfont.woff2') format('woff2'),
+      url('static/iconfont/iconfont.woff') format('woff'),
+      url('static/iconfont/iconfont.ttf') format('truetype'),
+      url('static/iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+	font-family: iconfont;
+	font-size: 44upx;
+	color: #999;
+	vertical-align: middle;
+}
+
+
+
+page {
+	background: #eee;
+}
+.no-permission {
+    font-size: 30upx;
+    color: #aaa;
+    text-align: center;
+}

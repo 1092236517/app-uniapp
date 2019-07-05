@@ -1,0 +1,861 @@
+{
+	"pages": [//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/guide",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/register/step1",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"app-plus":{
+					"titleNView": {
+						
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/register/step2",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"app-plus":{
+				
+				}
+			}
+		},
+		{
+			"path": "pages/register/step3",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"app-plus":{
+					
+				}
+			}
+		},
+		{
+			"path": "pages/auth/auth",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"app-plus":{
+					
+				}
+			}
+		},
+		{
+			"path": "pages/auth/status_wait",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"app-plus":{
+					
+				}
+			}
+		},
+		{
+			"path": "pages/auth/status_not",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"app-plus":{
+					
+				}
+			}
+		},
+		{
+			"path": "pages/auth/status_fail",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"app-plus":{
+					
+				}
+			}
+		},
+		{
+			"path": "pages/auth/status_info_uncomplete",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"app-plus":{
+					
+				}
+			}
+		},
+		{
+			"path": "pages/login",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/forget/step1",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"app-plus": {
+				}
+			}
+		},
+		{
+			"path": "pages/forget/step2",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"app-plus": {
+				}
+			}
+		},
+		{
+			"path": "pages/forget/step3",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"app-plus": {}
+			}
+		},
+		{
+			"path": "pages/tabBar/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/joint-list/joint-list",
+			"style": {
+				"navigationBarTitleText": "列表",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+                "enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "管理",
+								"fontSize": "16px"
+							}	
+						]
+					},
+                    "pullToRefresh": {
+                        "support": true,
+                        "color": "#0066CC",
+                        "style": "circle",
+                        "contentdown": {
+                            "caption": "下拉刷新"
+                        },
+                        "contentover": {
+                            "caption": "释放获取最新消息"
+                        },
+                        "contentrefresh": {
+                            "caption": "更新中..."
+                        }
+                    }
+				},
+                "h5": {
+                    "pullToRefresh": {
+                        "color": "#0066CC"
+                    }
+                }
+			}
+		},
+		{
+			"path": "pages/tabBar/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#0576db"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/demand/list/list",
+			"style": {
+				"navigationBarTitleText": "联采需求订单列表",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/group/demand/detail/detail",
+			"style": {
+				"navigationBarTitleText": "联采需求订单详情",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/group/demand/approve/approve",
+			"style": {
+				"navigationBarTitleText": "同意",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/group/demand/reject/reject",
+			"style": {
+				"navigationBarTitleText": "驳回",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/group/demand/select-supplier/select-supplier",
+			"style": {
+				"navigationBarTitleText": "推送供应商",
+				"app-plus": {
+					"titleNView": {
+						"searchInput": {
+							"backgroundColor": "#FFFFFF",
+							"placeholder": "请输入供应商名称",
+							"placeholderColor": "#CECECE",
+							"borderRadius": "4px"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/demand/select-payment-type/select-payment-type",
+			"style": {
+				"navigationBarTitleText": "选择付款方式",
+				"app-plus": {
+					"titleNView": {
+						
+					}
+				}
+			}
+		},
+        {
+        	"path": "pages/group/payment-type-manage/payment-type-manage",
+        	"style": {
+        		"navigationBarTitleText": "付款方式管理",
+        		"app-plus": {
+        			"titleNView": {
+                        "buttons": [
+                        	{
+                        		"text": "管理",
+                        		"fontSize": "16px"
+                        	}	
+                        ]
+        			}
+        		}
+        	}
+        },
+		{
+			"path": "pages/group/add-payment-type/add-payment-type",
+			"style": {
+				"navigationBarTitleText": "添加付款方式",
+				"app-plus": {
+					"titleNView": {
+
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/order/select-payment/select-payment",
+			"style": {
+				"navigationBarTitleText": "支付",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/payment-list/payment-list",
+			"style": {
+				"navigationBarTitleText": "支付列表",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/order/list/list",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/order/detail/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/order/slave-order/list/list",
+			"style": {
+				"navigationBarTitleText": "批次订单列表",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/order/slave-order/detail/detail",
+			"style": {
+				"navigationBarTitleText": "批次订单详情",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/demand/supplier-quote-list/supplier-quote-list",
+			"style": {
+				"navigationBarTitleText": "供应商报价",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/order/close/close",
+			"style": {
+				"navigationBarTitleText": "申请关闭",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/order/close-reject/close-reject",
+			"style": {
+				"navigationBarTitleText": "驳回原因",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/demand/edit-price/edit-price",
+			"style": {
+				"navigationBarTitleText": "编辑成交价",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/my/myaccount/myaccount",
+			"style": {
+				"navigationBarTitleText": "我的账户",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "筛选",
+								"fontSize": "16px"
+							}	
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/my/myaudit/myaudit",
+			"style": {
+				"navigationBarTitleText": "审核列表",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/my/auditdetail/auditdetail",
+			"style": {
+				"navigationBarTitleText": "分公司详情",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/group/my/auditreject/auditreject",
+			"style": {
+				"navigationBarTitleText": "驳回",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+        {
+        	"path": "pages/group/payment-info/payment-info-list/payment-info-list",
+        	"style": {
+        		"navigationBarTitleText": "支付信息列表",
+        		"app-plus": {
+        			"titleNView": {
+						"searchInput": {
+							"backgroundColor": "#FFFFFF",
+							"placeholder": "请输入供应商名称",
+							"placeholderColor": "#CECECE",
+							"borderRadius": "4px"
+						}
+        			}
+        		}
+        	}
+        },
+        {
+        	"path": "pages/group/payment-info/payment-info-detail/payment-info-detail",
+        	"style": {
+        		"navigationBarTitleText": "支付信息详情",
+        		"app-plus": {
+        			"titleNView": {
+        
+        			}
+        		}
+        	}
+        },
+        {
+        	"path": "pages/group/payment-account/list/list",
+        	"style": {
+        		"navigationBarTitleText": "账户管理列表",
+        		"app-plus": {
+        			"titleNView": {
+        				"buttons": [
+        					{
+        						"text": "管理",
+        						"fontSize": "16px"
+        					}	
+        				]
+        			}
+        		}
+        	}
+        },
+        {
+        	"path": "pages/group/payment-account/account-pay-add/account-pay-add",
+        	"style": {
+        		"navigationBarTitleText": "添加付款账户",
+        		"app-plus": {
+        			"titleNView": {
+        
+        			}
+        		}
+        	}
+        },
+        {
+        	"path": "pages/group/payment-account/account-receive-add/account-receive-add",
+        	"style": {
+        		"navigationBarTitleText": "添加收款账户",
+        		"app-plus": {
+        			"titleNView": {
+        
+        			}
+        		}
+        	}
+        },
+		{
+			"path": "pages/branch/demand/release/step1",
+			"style": {
+				"navigationBarTitleText": "发布联采需求",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/branch/demand/release/step2",
+			"style": {
+				"navigationBarTitleText": "发布联采需求",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/branch/demand/release/step3",
+			"style": {
+				"navigationBarTitleText": "发布联采需求",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/branch/demand/edit/step1",
+			"style": {
+				"navigationBarTitleText": "编辑联采需求",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/branch/demand/edit/step2",
+			"style": {
+				"navigationBarTitleText": "编辑联采需求",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/branch/demand/edit/step3",
+			"style": {
+				"navigationBarTitleText": "编辑联采需求",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/branch/demand/list/list",
+			"style": {
+				"navigationBarTitleText": "联采需求列表",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/branch/demand/detail/detail",
+			"style": {
+				"navigationBarTitleText": "联采需求详情",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/branch/demand/incomplete-demand-list/incomplete-demand-list",
+			"style": {
+				"navigationBarTitleText": "不完整需求列表",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "管理",
+								"fontSize": "16px"
+							}	
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/branch/order/list/list",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/branch/order/detail/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/branch/order/slave-order/list/list",
+			"style": {
+				"navigationBarTitleText": "批次订单列表",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/branch/order/slave-order/detail/detail",
+			"style": {
+				"navigationBarTitleText": "批次订单详情",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/branch/demand/reject/reject",
+			"style": {
+				"navigationBarTitleText": "驳回",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/branch/order/order-release/order-release",
+			"style": {
+				"navigationBarTitleText": "创建批次订单",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/branch/order/slave-order/reject/reject",
+			"style": {
+				"navigationBarTitleText": "驳回",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/branch/order/close/close",
+			"style": {
+				"navigationBarTitleText": "申请关闭",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/branch/my/myquota/myquota",
+			"style": {
+				"navigationBarTitleText": "配额分配",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "筛选",
+								"fontSize": "16px"
+							}	
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/supplier/demand/quote/quote",
+			"style": {
+				"navigationBarTitleText": "填写报价",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/supplier/order/list/list",
+			"style": {
+				"navigationBarTitleText": "联采订单列表",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/supplier/order/detail/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/supplier/order/slave-order/list/list",
+			"style": {
+				"navigationBarTitleText": "批次订单列表",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/supplier/order/slave-order/detail/detail",
+			"style": {
+				"navigationBarTitleText": "批次订单详情",
+				"app-plus": {
+					
+				}
+			}
+		},
+		{
+			"path": "pages/supplier/demand/detail/detail",
+			"style": {
+				"navigationBarTitleText": "联采需求详情",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/supplier/demand/list/list",
+			"style": {
+				"navigationBarTitleText": "联采需求列表",
+				"app-plus": {
+					"titleNView": {
+		
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/supplier/my/myquota/myquota",
+			"style": {
+				"navigationBarTitleText": "我的账户",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "筛选",
+								"fontSize": "16px"
+							}	
+						]
+					}
+				}
+			}
+		},
+        {
+        	"path": "pages/supplier/receive-info/receive-info-list/receive-info-list",
+        	"style": {
+        		"navigationBarTitleText": "收款信息列表",
+        		"app-plus": {
+        			"titleNView": {
+        				"searchInput": {
+        					"backgroundColor": "#FFFFFF",
+        					"placeholder": "请输入项目名称/产品名称",
+        					"placeholderColor": "#CECECE",
+        					"borderRadius": "4px"
+        				}
+        			}
+        		}
+        	}
+        },
+        {
+        	"path": "pages/supplier/receive-info/receive-info-detail/receive-info-detail",
+        	"style": {
+        		"navigationBarTitleText": "收款信息详情",
+        		"app-plus": {
+        			"titleNView": {
+                        
+        			}
+        		}
+        	}
+        }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0066CC",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+		"color" : "#999999",
+		"selectedColor" : "#0066CC",
+		"borderStyle" : "black",
+		"backgroundColor" : "#FFFFFF",
+		"list": [
+			{
+			    "pagePath" : "pages/tabBar/home/home",
+			    "iconPath" : "static/images/tabBar/home.png",
+			    "selectedIconPath" : "static/images/tabBar/home-active.png",
+			    "text" : "首页"
+			},
+			{
+			    "pagePath" : "pages/tabBar/joint-list/joint-list",
+			    "iconPath" : "static/images/tabBar/joint-list.png",
+			    "selectedIconPath" : "static/images/tabBar/joint-list-active.png",
+			    "text" : "订单列表"
+			},
+			{
+			    "pagePath" : "pages/tabBar/message/message",
+			    "iconPath" : "static/images/tabBar/message.png",
+			    "selectedIconPath" : "static/images/tabBar/message-active.png",
+			    "text" : "消息"
+			},
+			{
+			    "pagePath" : "pages/tabBar/my/my",
+			    "iconPath" : "static/images/tabBar/my.png",
+			    "selectedIconPath" : "static/images/tabBar/my-active.png",
+			    "text" : "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
